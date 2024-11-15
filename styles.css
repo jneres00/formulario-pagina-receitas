@@ -21,12 +21,12 @@ body {
 
 .form-container {
     flex: 1;
-    padding: 30px; /* Aumente o padding para mais espaço interno */
+    padding: 30px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombras mais suaves */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1)
     max-width: 600px;
-    border: 1px solid #e0e0e0; /* Adiciona uma borda sutil */
+    border: 1px solid #e0e0e0;
 }
 
 .image-container {
@@ -223,4 +223,13 @@ input[type="text"]:focus,
 input[type="email"]:focus {
     border-color: rgb(50, 205, 50);
     outline: none;
+}
+
+h6 {
+    text-align: center;
+}
+
+h6 a {
+  color: black;
+  text-decoration: none;
 }
